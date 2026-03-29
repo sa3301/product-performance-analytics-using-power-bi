@@ -22,7 +22,8 @@ This project focuses on building a **"data-first"** analytical tool to transform
 
 ### 3. Scenario Simulation & Predictive Analysis
 *   **Action:** Integrated **What-If parameters** and **Trend Forecasting** to support future-state hypothesising.
-*   **Implementation:** 
+*   **Implementation:**
+*   DAX – Adjusted Sales = SUM('superstore_dataset'[Sales]) * (1 + SELECTEDVALUE('Price Change %'[Price Change %])/100)
     *   **What-If:** Created dynamic sliders to simulate variable changes, and view real-time impacts on profit.
     *   **Forecasting:** Applied built-in exponential smoothing models to project sales trends based on historical data.
 
