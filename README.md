@@ -3,8 +3,6 @@
 ## 📌 Project Overview
 This project focuses on building a **"data-first"** analytical tool to transform raw business datasets into a high-performance dashboard. Using **Power BI**, I engineered an automated pipeline that moves beyond static reporting to provide **predictive insights** and **scenario simulations** for data-driven decision-making.
 
-<img width="1470" height="963" alt="image" src="https://github.com/user-attachments/assets/b9cb409a-1439-4bc1-a3fb-1a79770d79c7" />
-
 
 ## 🛠️ Technical Stack
 *   **Analytics Platform:** Power BI Desktop
@@ -20,6 +18,8 @@ This project focuses on building a **"data-first"** analytical tool to transform
 *   **Action:** Architected a repeatable workflow in **Power Query** to ingest and structure raw datasets.
 *   **Implementation:** Applied automated steps for data unpivoting, null-handling, and type standardisation.
 *   **Outcome:** Created a "one-click" refresh system that ensures a reliable foundation for all downstream analytics.
+
+<img width="1470" height="963" alt="image" src="https://github.com/user-attachments/assets/b9cb409a-1439-4bc1-a3fb-1a79770d79c7" />
 
 ### 2. Interactive Business Intelligence
 *   **Action:** Developed multi-page reports focused on translating complex datasets into **actionable insights**.
