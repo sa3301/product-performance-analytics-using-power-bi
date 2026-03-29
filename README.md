@@ -3,11 +3,16 @@
 ## 📌 Project Overview
 This project focuses on building a **"data-first"** analytical tool to transform raw business datasets into a high-performance dashboard. Using **Power BI**, I engineered an automated pipeline that moves beyond static reporting to provide **predictive insights** and **scenario simulations** for data-driven decision-making.
 
+<img width="1470" height="963" alt="image" src="https://github.com/user-attachments/assets/b9cb409a-1439-4bc1-a3fb-1a79770d79c7" />
+
+
 ## 🛠️ Technical Stack
 *   **Analytics Platform:** Power BI Desktop
 *   **Data Transformation:** Power Query (M Language)
 *   **Data Modelling:** Star Schema (Fact & Dimension tables)
 *   **Logic & Calculations:** DAX (Data Analysis Expressions)
+
+<img width="1470" height="963" alt="image" src="https://github.com/user-attachments/assets/51ba6762-805d-463e-945f-0b99c9e3f398" />
 
 ## 🚀 Key Features & Implementation
 
@@ -20,12 +25,17 @@ This project focuses on building a **"data-first"** analytical tool to transform
 *   **Action:** Developed multi-page reports focused on translating complex datasets into **actionable insights**.
 *   **Implementation:** Utilised cross-filtering, slicers, and drill-through actions to allow stakeholders to identify regional and product-level performance trends.
 
+<img width="1470" height="963" alt="image" src="https://github.com/user-attachments/assets/7bdb5a31-46c3-4d3b-adff-76f6679cbd6d" />
+
 ### 3. Scenario Simulation & Predictive Analysis
 *   **Action:** Integrated **What-If parameters** and **Trend Forecasting** to support future-state hypothesising.
 *   **Implementation:**
 *   DAX – Adjusted Sales = SUM('superstore_dataset'[Sales]) * (1 + SELECTEDVALUE('Price Change %'[Price Change %])/100)
     *   **What-If:** Created dynamic sliders to simulate variable changes, and view real-time impacts on profit.
     *   **Forecasting:** Applied built-in exponential smoothing models to project sales trends based on historical data.
+
+<img width="1470" height="963" alt="image" src="https://github.com/user-attachments/assets/4fc40103-bdc4-4d2e-bd1c-22fd679cb0a6" />
+
 
 ### 4. Performance Optimisation
 *   **Action:** Optimised data pipelines to ensure accuracy under varying data loads.
